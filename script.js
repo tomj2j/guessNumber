@@ -38,6 +38,7 @@ document.querySelector('.check').addEventListener('click', function () {
       '🎉😊 OMG YOU DID IT !!! 😊🎉';
     document.querySelector('.check').textContent = 'YAY !! 😊';
     document.querySelector('.number').textContent = secretNumber;
+    //Highscore will be updated
     if (score > highScore) {
       highScore = score;
       document.querySelector('.highscore').textContent = highScore;
